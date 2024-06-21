@@ -30,7 +30,7 @@ if choice == 1:
     for tr in range(1,tries+1):
         print(f"Starting try {tr}...")
         start = time.time()
-        result, is_solved = solve_ga(sudoku, plot)
+        result, is_solved = solve_ga(sudoku)
         diff = time.time() - start
         time_sum += diff
         tries_passed += 1
