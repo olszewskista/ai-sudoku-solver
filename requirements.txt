@@ -1,0 +1,6 @@
+pyswarms
+matplotlib
+pygad
+colorama
+numpy
+pandas
